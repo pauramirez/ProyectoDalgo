@@ -26,6 +26,16 @@ public class ProblemaA {
 			}
 			
 			System.out.println(sp);
+			
+			//SE TIENE EL VECTOR Z EN UN ARREGLO
+			//SE DEBE ENCONTRAR EL ARREGLO P QUE HAGA QUE EL PRODUCTO PUNTO DE 1
+			
+			//EL ARREGLO P SE GENERA COMO [0,0,...,1/z[n-1]]:
+			int[] p= new int[z.length];
+			int cont = 0;
+			if(z[cont]>0)
+				p[cont]= Math.negateExact(z[cont]);
+			
 		}
 	}
 }
